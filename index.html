@@ -13,6 +13,9 @@
 <!-- Our own CSS stylesheet -->
 <link rel="stylesheet" type= "text/css" href="style.css">
 
+<!--Google Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Anton|Trade+Winds&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -22,20 +25,97 @@
 
   </header>
 
+<!--Bio and Intro Section-->
+
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="..." class="card-img" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Navigation Column-->
+
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>
+  </ul>
+
+<!--Snazzy Jumbotron and Vision/Mission Statement-->
+
   <div class="container">
 
     <section id="main-bio">
-
-      <h2>Samuel Thompson</h2>
-      <img src="C:/FullstackClass/ThompsonPortfolio/BioPic.jpg" alt="Your Image" id="bio-image">
-      <p>I'm a Full Stack Web Developer with an emphasis on backend technologies. I recently graduated from a coding bootcamp at Case Western Reserve University. </p>
+      <div class="jumbotron jumbotron-fluid" style="background-image: url(https://image.freepik.com/free-vector/elegant-navy-blue-background-with-overlap-layer_95742-321.jpg); background-size: 100%;">
+        <div class="container">
+          <h1 class="display-4">Samuel Thompson</h1>
+          
+          <p class="lead">I'm a Full Stack Web Developer with an emphasis on backend technologies. I recently graduated from a coding bootcamp at Case Western Reserve University.</p>
+        </div>
+      </div>
 
     </section>
 
+<!--Projects Section-->    
+
+    <div class="card-group">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+
+
+  <!--Contact Information Section-->
+  
     <section id="contact-info">
 
       <h2>Contact Info</h2>
-
+      <img src="C:/FullstackClass/ThompsonPortfolio/BioPic.jpg" alt="Your Image" id="bio-image" height="150" width="150">
       <ul>
         <li><strong>Email:</strong> <a href="#">thomps9012@gmail.com</a></li>
         <li><strong>Github:</strong> <a href="https://github.com/thomps9012?tab=repositories">Link to my Code Repositories</a></li>
