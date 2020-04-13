@@ -2,3 +2,22 @@
     font-weight: bold;
     font-size: xx-large;
 }
+
+.jumbotron{
+    background-image: url("../Assets/Images/highway.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    background-position: 25% 36%;
+    
+}
+
+.jumbotron h1{
+    color: #fff;
+}
+.jumbotron, .lead{
+    color: #fff;
+}
+.jumbotron p{
+    color: #fff;
+}
