@@ -4,19 +4,17 @@
 }
 
 .jumbotron{
-    background-image: url("../Assets/Images/magellan.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    position: relative;
+    background-color: black;
+   
     
 }
 
 .jumbotron h1{
-    color: #fff;
+    color: whitesmoke;
 }
 .jumbotron, .lead{
-    color: #fff;
+    color: whitesmoke;
 }
 .jumbotron p{
-    color: #fff;
+    color: whitesmoke;
 }
