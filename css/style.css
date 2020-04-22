@@ -18,3 +18,8 @@
 .jumbotron p{
     color: whitesmoke;
 }
+
+.card-img-top{
+    height: 300px;
+    width: auto;
+}
