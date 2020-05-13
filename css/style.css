@@ -2,9 +2,15 @@
     font-weight: bold;
     font-size: xx-large;
 }
-
+.nav-item{
+    color: #03052e;
+}
+#contact-info{
+    background-color: #032e0c;
+    color: whitesmoke;
+}
 .jumbotron{
-    background-color: black;
+    background-color: #032e0c;
    
     
 }
