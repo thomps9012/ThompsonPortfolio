@@ -11,12 +11,17 @@
 }
 .jumbotron{
     background-color: #011c08;
-   
+   background: url("../Images/robert-tudor-BydNJ_dOVYg-unsplash.jpg");
+   background-size: cover;
+   padding: 24px;
+   height: 100vh;
+   position: relative;
     
 }
 
 .jumbotron h1{
     color: whitesmoke;
+    size: 4in;
 }
 .jumbotron, .lead{
     color: whitesmoke;
@@ -28,4 +33,8 @@
 .card-img-top{
     height: 300px;
     width: auto;
+}
+
+.card-img-top2{
+    height: 300px;
 }
