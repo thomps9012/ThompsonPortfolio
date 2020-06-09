@@ -29,12 +29,14 @@
 #bioHead{
     background-color: #fcb603;
     color: #12034a;
+    opacity: .3;
     border-radius: 12px; 
 }
 #biop{
-    background-color: #fcb603;
-    color: #whitesmoke;
-    border-radius: 12px; 
+    background-color: #215c73;
+    color: whitesmoke;
+    opacity: .3;
+    border-radius: 9px; 
 }
 
 .jumbotron h1{
