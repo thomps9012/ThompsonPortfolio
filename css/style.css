@@ -27,16 +27,10 @@
     
 }
 #bioHead{
-    background-color: #fcb603;
-    color: #12034a;
-    opacity: .3;
-    border-radius: 12px; 
+    color: #fcb603;
 }
 #biop{
-    background-color: #215c73;
     color: whitesmoke;
-    opacity: .3;
-    border-radius: 9px; 
 }
 
 .jumbotron h1{
