@@ -29,7 +29,9 @@
 }
 #bioHead, #biop{
     background-color: #fcb603;
-    
+    opacity: 0.3;
+    border-radius: 12px; 
+
 }
 
 .jumbotron h1{
