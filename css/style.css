@@ -19,8 +19,7 @@
     
 }
 .jumbotronBio{
-    background-color: #011c08;
-   background: url("../Images/BioPic.jpg");
+    background-color: #12034a;
    background-size: cover;
    padding: 24px;
    height: 100vh;
@@ -29,7 +28,8 @@
 }
 #bioHead, #biop{
     background-color: #fcb603;
-    opacity: 0.3;
+    color: #12034a;
+    opacity: 0.9;
     border-radius: 12px; 
 
 }
