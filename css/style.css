@@ -53,6 +53,7 @@
 .card-img-top{
     height: 300px;
     width: auto;
+    size: cover;
 }
 
 .card-img-top2{
