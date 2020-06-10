@@ -51,6 +51,10 @@
     size: cover;
 }
 
+#card-img{
+    position: center;
+}
+
 .card-img-top2{
     height: 300px;
 }
