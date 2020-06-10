@@ -47,7 +47,8 @@
 .card-img-top{
     height: 300px;
     width: auto;
-    position: center;
+    background-position: center;
+    display: flex;
 }
 
 
